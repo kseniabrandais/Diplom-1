@@ -11,7 +11,7 @@ import praktikum.IngredientType;
 
 @RunWith(MockitoJUnitRunner.class)
 
-public class addIngredientMockedTest {
+public class AddIngredientMockedTest {
 
     private Burger testBurger;
 

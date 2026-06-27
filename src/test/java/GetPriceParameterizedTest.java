@@ -26,7 +26,7 @@ public class GetPriceParameterizedTest {
         this.expectedPrice = expectedPrice;
     }
 
-    @Parameterized.Parameters
+    @Parameterized.Parameters(name = "Тестовые данные: {0}, {1}, {2}")
     public static Object[][] dataForTest() {
         return new Object[][]{
                 {50f, null, null, 100f},

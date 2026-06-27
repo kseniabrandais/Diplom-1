@@ -40,7 +40,7 @@ public class GetReceiptParameterizedTest {
         this.expectedReceipt = expectedReceipt;
     }
 
-    @Parameterized.Parameters
+    @Parameterized.Parameters(name = "Тестовые данные: {0}, {1}, {2}")
     public static Object[][] dataForTest() {
         return new Object[][]{
                 {"Цельнозерновая", 50f, null, null, null, null, null, null, "(==== Цельнозерновая ====)\n" + "(==== Цельнозерновая ====)\n" + "\nPrice: 100,000000\n"},
